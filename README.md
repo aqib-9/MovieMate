@@ -1,12 +1,100 @@
-# React + Vite
+# 🎬 MovieMate – React TMDB Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MovieMate** is my first React project. It fetches **popular movies** from the TMDB (The Movie Database) API and allows users to **add or remove movies** from a personalized **favorites list**. This project helped me learn how to work with React components, hooks, and external APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔥 Fetches real-time **popular movies** using TMDB API
+- ❤️ Users can **add/remove movies** to/from favorites
+- ⚛️ Built with **React Hooks** (`useState`, `useEffect`)
+- 💻 Responsive user interface
+- 📦 Clean and modular component structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React.js** (with Hooks)
+- **TMDB API** – movie data
+- **CSS / TailwindCSS** – styling (depending on what you used)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/aqib-9/MovieMate.git
+cd MovieMate
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Set up your TMDB API key
+Sign up at TMDB and get a free API key.
+
+Create a .env file in the root directory:
+
+env
+Copy
+Edit
+API_KEY=your_api_key_here
+4. Run the app locally
+bash
+Copy
+Edit
+npm start
+The app will be available at http://localhost:3000.
+
+🗂 Folder Structure
+pgsql
+Copy
+Edit
+MovieMate/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── MovieList.jsx
+│   │   ├── MovieCard.jsx
+│   │   └── Favorites.jsx
+│   ├── App.js
+│   ├── api.js
+│   └── index.js
+├── .env
+├── README.md
+└── package.json
+📌 Future Improvements
+🔍 Add search functionality
+
+📄 Movie detail modal
+
+💾 Persist favorites using localStorage
+
+📂 Add filtering by genre/category
+
+🙋‍♂️ Author
+Aqib Ali
+🔗 LinkedIn
+💻 GitHub
+
+📄 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Next Steps:
+- Save this content to a `README.md` file in your project root.
+- Run:
+
+```bash
+git add README.md
+git commit -m "Add full project README"
+git push
